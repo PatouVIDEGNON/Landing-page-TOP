@@ -87,6 +87,12 @@ color: white;
     align-items: center;
 }
 
+#section-cards >h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
 .cards{
     height: 100px;
     width: 100px;
@@ -104,4 +110,23 @@ color: white;
 .cards_container > div > h4{
         max-width: 150px;
         min-width: 120px;
+        font-weight: 100;
+}
+
+#quotation{
+    background-color: #e5e7eb;
+    padding: 32px;
+    
+}
+
+blockquote{
+    font-size: 28px;
+    font-style: italic;
+    font-weight:100;
+    color: #1F2937;
+}
+
+figcaption{
+    text-align: right;
+    font-weight: bolder;
 }
