@@ -1,0 +1,76 @@
+
+#section-header{
+    background-color: #1f2937;
+    padding: 15px 3rem 3rem 3rem;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(248, 248, 248, 0.1);
+    padding: 8px;
+    font-weight: bold;
+    font-size: medium;
+    align-items: center;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 5px;
+    gap: 16px;
+  }
+
+ #hero-img{
+    height: auto;
+    max-width:100%;
+}
+#logo{
+    height: 35px;
+    color: #f9faf8 ;
+    
+}
+
+li > a{
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+  }
+
+  .hero{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+
+    margin-top: 38px;
+
+  /*  display:flex ;
+    flex:1;
+    flex-wrap: nowrap ;
+    margin-top: 38px; */
+  }
+
+
+  .hero_text{
+    padding-right: 10px;
+    color: #f9faf8 ;
+  }
+
+  .hero_text > h1{
+    font-size: 38px;
+    font-weight: bolder;
+    color: white;
+  }
+
+  .hero_text > button{
+background-color: #3882f6;
+padding: 10px;
+border-radius: 8px;
+color: white;
+  }
