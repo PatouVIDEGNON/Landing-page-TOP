@@ -185,3 +185,15 @@ button:active{
     font-size: x-large;
 }
 
+
+#footer{
+    background-color: #1F2937;
+    height: 4rem;
+    text-align: center;
+
+}
+
+#footer > p{
+    color: white;
+   padding: 1.5rem;
+}
