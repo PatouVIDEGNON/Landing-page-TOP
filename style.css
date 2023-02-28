@@ -29,8 +29,10 @@ ul {
     display: flex;
     margin: 0;
     padding: 5px;
-    gap: 16px;
+    gap: 1.5rem;
+    cursor: pointer;
   }
+  
 
  #hero-img{
     height: auto;
@@ -46,7 +48,19 @@ li > a{
     /* this removes the line under our links */
     text-decoration: none;
     color: white;
+
   }
+
+  li > a:hover{
+   color: #3882f6;
+  }
+
+  li > a:active{
+    text-decoration: overline;
+    
+    text-decoration-color: white;
+
+   }
 
   .hero{
     display: grid;
@@ -77,6 +91,7 @@ background-color: #3882f6;
 padding: 10px;
 border-radius: 8px;
 color: white;
+font-size: large;
   }
 
 
@@ -130,3 +145,43 @@ figcaption{
     text-align: right;
     font-weight: bolder;
 }
+
+#section-CAT{
+    margin: 6%;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cat-text{
+    margin: 1.5rem;
+    color: #f9faf8;
+    
+}
+
+#section-CAT > button{
+    border-radius: 20px;
+    border-color: white;
+    background-color: #3882F6;
+    margin-right: 1rem;
+    width: 150px;
+    height: 50px ;
+    color: white;
+    font-size: larger;
+    
+}
+
+#section-CAT > button:active{
+    background-color: #4f8ef3;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+button:active{
+    background-color: #4f8ef3;
+    font-weight: 900;
+    font-size: x-large;
+}
+
